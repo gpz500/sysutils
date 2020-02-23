@@ -24,9 +24,9 @@
         <integer>17</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/Users/gpz500/log/duplicacy.log</string>
+    <string>/Users/gpz500/Library/Logs/duplicacy.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/gpz500/log/duplicacy.log</string>
+    <string>/Users/gpz500/Library/Logs/duplicacy.log</string>
     <key>WorkingDirectory</key>
     <string>/Users/gpz500</string>
 </dict>
