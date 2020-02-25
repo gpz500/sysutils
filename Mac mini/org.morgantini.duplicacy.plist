@@ -11,10 +11,12 @@
       <string>/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin</string>
     </dict>
     <key>Program</key>
-    <string>/usr/local/bin/duplicacy_daily_job.sh</string>
+    <string>/bin/sh</string>
     <key>ProgramArguments</key>
     <array>
-    	<string>duplicacy_daily_job.sh</string>
+        <string>/bin/sh</string>
+        <string>-c</string>
+        <string>duplicacy_daily_job.sh | ts "[%F %T]"; exit ${PIPESTATUS[0]}</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>

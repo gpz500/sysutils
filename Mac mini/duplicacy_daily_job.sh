@@ -18,9 +18,9 @@ test $BACKUP_EXIT_STATUS -eq 0 && test $PRUNE_EXIT_STATUS -eq 0
 EXIT_STATUS=$?
 
 if [ $EXIT_STATUS -eq 0 ]; then
-    tail Library/Logs/duplicacy.log | mail -v -s "Mac Mini's backup OK" $EMAIL_ADDRESS
+    tail Library/Logs/duplicacy.log | mail -s "Mac Mini's backup OK" $EMAIL_ADDRESS
 else
-    tail Library/Logs/duplicacy.log | mail -v -s "Mac Mini's backup ERROR !!!" $EMAIL_ADDRESS
+    tail Library/Logs/duplicacy.log | mail -s "Mac Mini's backup ERROR !!!" $EMAIL_ADDRESS
 fi
 
 exit $EXIT_STATUS
