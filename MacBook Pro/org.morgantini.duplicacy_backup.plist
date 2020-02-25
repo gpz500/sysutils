@@ -5,13 +5,18 @@
 <dict>
     <key>Label</key>
     <string>org.morgantini.duplicacy_backup</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin</string>
+    </dict>
     <key>Program</key>
-    <string>/usr/local/bin/duplicacy</string>
+    <string>/bin/sh</string>
     <key>ProgramArguments</key>
     <array>
-        <string>duplicacy</string>
-        <string>backup</string>
-        <string>-stats</string>
+        <string>/bin/sh</string>
+        <string>-c</string>
+        <string>duplicacy backup | ts "[%F %T]"; exit ${PIPESTATUS[0]}</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
@@ -21,9 +26,9 @@
         <integer>17</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/Users/gpz500/log/duplicacy.log</string>
+    <string>/Users/gpz500/Library/Logs/duplicacy.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/gpz500/log/duplicacy.log</string>
+    <string>/Users/gpz500/Library/Logs/duplicacy.log</string>
     <key>WorkingDirectory</key>
     <string>/Users/gpz500</string>
 </dict>
