@@ -1,0 +1,16 @@
+e:\.cache/$
+e:\.DS_Store$
+-.Trash/
+-Dropbox/
+-Amazon Drive/
+-Google Drive/
+-Library/Caches/
+-Library/Logs/
+-Library/Saved Application State/
+-Library/Application Support/aMule/Temp/
+-Nextcloud/
+-OneDrive/
+-VirtualBox VMs/
+-Documents/aMule Downloads/
+-Downloads/
+-Library/Application Support/MobileSync/Backup/
