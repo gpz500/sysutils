@@ -6,4 +6,4 @@
  - [Enable postfix on macOS](https://gist.github.com/loziju/66d3f024e102704ff5222e54a4bfd50e)
  - [LVM tutorial](https://www.howtoforge.com/linux_lvm)
  - [RAID Calculator](http://www.raid-calculator.com/Default.aspx)
- 
+ - [Manage app access to OneDrive](https://answers.microsoft.com/en-us/msoffice/forum/all/how-to-review-and-revoke-app-access-to-onedrive/66b2fe26-5ba0-43a2-a4c4-0816dbd72134)
