@@ -1,0 +1,2 @@
+Cmnd_Alias CADDY_RELOAD = /bin/systemctl reload caddy.service
+homeassistant ALL=(ALL) NOPASSWD: CADDY_RELOAD

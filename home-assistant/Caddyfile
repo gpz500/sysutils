@@ -1,0 +1,4 @@
+xxx.example.com:2016
+
+reverse_proxy 127.0.0.1:8123
+tls /home/homeassistant/xxx.example.com/fullchain.pem /home/homeassistant/xxx.example.com/privkey.pem
