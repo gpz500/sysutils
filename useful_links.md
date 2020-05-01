@@ -7,3 +7,6 @@
  - [LVM tutorial](https://www.howtoforge.com/linux_lvm)
  - [RAID Calculator](http://www.raid-calculator.com/Default.aspx)
  - [Manage app access to OneDrive](https://answers.microsoft.com/en-us/msoffice/forum/all/how-to-review-and-revoke-app-access-to-onedrive/66b2fe26-5ba0-43a2-a4c4-0816dbd72134)
+ - [Set swap area in Zram](https://github.com/StuartIanNaylor/zram-swap-config.git)
+ - [Log files to ram](https://github.com/azlux/log2ram)
+ 
