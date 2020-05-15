@@ -1,0 +1,27 @@
+homeassistant: false
+permit_join: false
+mqtt:
+  base_topic: zigbee2mqtt
+  server: 'mqtt://localhost'
+serial:
+  port: /dev/ttyACM0
+  disable_led: true
+devices:
+  '0xccccccfffea4b6c3':
+    friendly_name: tradfri_light_1
+  '0xec1bbdfffe1c8a55':
+    friendly_name: tradfri_light_2
+  '0x000b57fffe39fe15':
+    friendly_name: tradfri_light_3
+  '0x000b57fffe137f37':
+    friendly_name: tradfri_dimmer_1
+  '0x000d6ffffe9cccc7':
+    friendly_name: tradfri_repeater_1
+  '0x000d6ffffed950c0':
+    friendly_name: tradfri_plug_1
+  '0x000d6ffffee3c6d9':
+    friendly_name: tradfri_button_1
+  '0x14b457fffe6b0960':
+    friendly_name: tradfri_motion_1
+  '0xec1bbdfffe254824':
+    friendly_name: 'tradfri_light_4'
