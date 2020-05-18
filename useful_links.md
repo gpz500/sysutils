@@ -13,6 +13,4 @@
  - [Check Spectre/Meltdown mitigations on Linux](https://github.com/speed47/spectre-meltdown-checker)
  - [Disable Spectre/Meltdown mitigations on Linux](https://unix.stackexchange.com/questions/554908/disable-spectre-and-meltdown-mitigations)
  - [Check/set Spectre/Meltdown mitigations on Windows](https://www.grc.com/inspectre.htm)
-
-
- 
+ - [What is my effective DNS server?](http://www.whatsmydnsserver.com/)
