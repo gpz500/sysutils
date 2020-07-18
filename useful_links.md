@@ -15,3 +15,4 @@
  - [Check/set Spectre/Meltdown mitigations on Windows](https://www.grc.com/inspectre.htm)
  - [What is my effective DNS server?](http://www.whatsmydnsserver.com/)
  - [Plop Boot Manager 5](https://www.plop.at/en/bootmanager/intro.html)
+ - [User Profiles and Folder Redirection from HP](http://h20195.www2.hp.com/v2/getpdf.aspx/4AA7-7144ENW.pdf)
