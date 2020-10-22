@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rsync --archive --verbose --delete /mnt/Drobo1/ /mnt/pippo/Drobo1
+rsync --archive --verbose --delete /mnt/Drobo2/ /mnt/pippo/Drobo2
+#rsync --archive --verbose --delete /mnt/Drobo3/ /mnt/pippo/Drobo3

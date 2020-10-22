@@ -1,0 +1,13 @@
+#!/bin/bash
+
+DEST_DISK=$(readlink -e /dev/disk/by-id/wwn-0x50014ee201cdb8c6)
+
+if [ -n $DEST_DISK ]; then
+    weresync --root-partition 1 --bootloader grub2 --verbose /dev/sda $DEST_DISK
+    WERESYNC_EXIT_STATUS=$?
+    for n in ${DEST_DISK}?; do umount $n; done
+    exit $WERESYNC_EXIT_STATUS
+else
+    echo "ERROR: destination disk not attached." >&2
+    exit 1
+fi
