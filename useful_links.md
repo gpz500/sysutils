@@ -17,3 +17,4 @@
  - [Plop Boot Manager 5](https://www.plop.at/en/bootmanager/intro.html)
  - [User Profiles and Folder Redirection from HP](http://h20195.www2.hp.com/v2/getpdf.aspx/4AA7-7144ENW.pdf)
  - [Change aspect ratio without reencoding with FFmpeg](https://superuser.com/questions/907933/correct-aspect-ratio-without-re-encoding-video-file)
+ - [Xah Emacs Site](http://ergoemacs.org/)
