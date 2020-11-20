@@ -24,4 +24,6 @@ devices:
   '0x14b457fffe6b0960':
     friendly_name: tradfri_motion_1
   '0xec1bbdfffe254824':
-    friendly_name: 'tradfri_light_4'
+    friendly_name: tradfri_light_4
+  '0x00124b001e731e60':
+    friendly_name: sonoff_basiczbr3_1
