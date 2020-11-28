@@ -17,4 +17,5 @@
  - [Plop Boot Manager 5](https://www.plop.at/en/bootmanager/intro.html)
  - [User Profiles and Folder Redirection from HP](http://h20195.www2.hp.com/v2/getpdf.aspx/4AA7-7144ENW.pdf)
  - [Change aspect ratio without reencoding with FFmpeg](https://superuser.com/questions/907933/correct-aspect-ratio-without-re-encoding-video-file)
+ - [Extract audio from a movie with FFmpeg](https://stackoverflow.com/questions/9913032/how-can-i-extract-audio-from-video-with-ffmpeg)
  - [Xah Emacs Site](http://ergoemacs.org/)
