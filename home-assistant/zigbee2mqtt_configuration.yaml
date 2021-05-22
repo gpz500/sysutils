@@ -27,3 +27,7 @@ devices:
     friendly_name: tradfri_light_4
   '0x00124b001e731e60':
     friendly_name: sonoff_basiczbr3_1
+  '0x00158d000588dd36':
+    friendly_name: xiaomi_temp_hum_01
+  '0x680ae2fffe3e541d':
+    friendly_name: lidl_switch_1
